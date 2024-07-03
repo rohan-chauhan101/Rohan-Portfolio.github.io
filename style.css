@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 
 a{
@@ -224,13 +225,13 @@ nav{
     
     .rightSection{
         display: none;
-        text-align: center;
-        width: 70%;
-        position: relative;
-        left: -100px;
-        top: -80px;
     }
     
+    .button{
+        width: auto;
+        justify-content: center;
+    }
+
     .leftSection .btn{
         background: #31317d;
         color: white;
@@ -242,8 +243,9 @@ nav{
         margin-left: 55px;
     }
     
-    rightSection img{
-       width: 100%;
+    .divison{
+        display: flex;
+        justify-content: center;
     }
 
     .divider1{
@@ -255,13 +257,26 @@ nav{
         top:100px;
      }
 
+     .dpcont{
+        display: flex;
+        width: auto;
+        justify-content: center;
+     }
+
      .dp{
         height: 300px;
         width: 300px;
-        /* background-color: red; */
+        
         position:relative;
         top: 65px;
-        left: 68px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .dp img{
+        justify-self: center;
      }
 
      .about{
@@ -374,6 +389,10 @@ nav{
     }
 
     .divider2{
+        display: none;
+    }
+
+    .dpcont{
         display: none;
     }
 }
